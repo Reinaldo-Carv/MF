@@ -1,0 +1,97 @@
+/*Imagem de fundo - da árvore*/
+body{
+    background-image: url("imagens/verde15.png");
+}
+
+/*texto da página (mal utilizado)*/
+.corpo{
+    font-size: 200%;
+    margin: auto; 
+    width: 78%;
+    padding-top: 20px;
+    font-family: "Berlin Sans FB", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+/*fundo verde com margem old:#a7eea7*/
+.background{
+    margin: auto;
+    width: 78%;
+    background-color: #a7eea7;
+}
+
+/*Textos introdutórios usados no index (mal utilizado)*/
+.texto{
+    font-size: 150%;
+    margin: auto; 
+    width: 78%;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color:black;
+}
+
+/*Tirar linha dos links*/
+a{
+  text-decoration: none;
+}
+
+/*Complemento do corpo. Utilizado no título: "Receitas do Projeto de Conscientização Alimentar"*/
+.titulo1{
+    margin-bottom: 35px;
+    font-family: "Berlin Sans FB", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*formatação de texto utilizada para: "Café da Manhã" no título da página.
+  formatação de texto reutilizada para o título "Ingredientes"*/
+.refeicao_ingredientes{
+    font-size: 190%;
+    font-family: "Century Gothic", "Helvetica", sans-serif;
+    margin: auto; 
+    width: 78%;
+    text-decoration: underline;
+}
+
+/*Formatação usada para indicar se a receita é salgada ou doce*/
+.salgada_doce{
+    font-size: 190%;
+    font-family: "Century Gothic", "Helvetica", sans-serif;
+    margin: auto; 
+    width: 75%;
+    text-decoration: underline;
+}
+
+/*Título superior da foto*/
+.fontecaption{
+    font-family: 'comic sans ms', 'Century gothic', monospace;
+    font-size: 165%;
+}
+
+/*fonte usada na inserção de links*/
+.links{
+    font-size: 10;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Lista de Ingredientes*/
+.lista_ingredientes{
+    font-size: 115%;
+    color: black;
+    margin: auto;
+    width: 76%;
+    font-family:  "Century Gothic", "Helvetica", sans-serif;
+}
+
+/*uls*/
+.lista_ingredientes_ul{
+    list-style: square;
+    overflow: auto;
+    transition: none;
+    flex-direction: column;
+    margin: auto;
+    width: 78%;
+    font-size: 115%;
+    color: black;
+    font-family:  "Century Gothic", "Helvetica", sans-serif;
+}
+    
